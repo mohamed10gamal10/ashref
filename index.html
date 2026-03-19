@@ -47,6 +47,53 @@
     }
     a.button-link:hover{ background-color:brown; }
     #cart-items div{ margin:5px; }
+    /* 📱 موبايل فقط */
+@media (max-width: 768px) {
+
+    /* الهيدر */
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header h2 {
+        font-size: 16px;
+    }
+
+    /* صورة البانر */
+    .logo2 {
+        width: 100%;
+        height: auto;
+    }
+
+    /* الكاردات */
+    .cardIMGinfo {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    /* السلة */
+    #cart-items {
+        justify-content: center;
+    }
+
+    #cart-items div {
+        width: 90% !important;
+    }
+
+    /* الفورم */
+    .form input {
+        width: 90%;
+    }
+
+}
    
 </style>
 </head>
